@@ -12,6 +12,9 @@ button.setAttribute("type", "button");
 button.classList.add("btn", "btn-primary");
 button.innerHTML = "Display Data";
 button.style.margin = "10px";
+button.style.backgroundColor = "blue";
+button.style.color = "white";
+button.style.borderRadius = "10px";
 
 button.addEventListener("click", displaydata);
 div.append(inputdate, button);
